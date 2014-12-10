@@ -1,0 +1,41 @@
+# Parts
+
+sub01
+	id: 5001
+	type: part
+
+sub02
+	id: 5002
+	type: part
+
+sub03
+	id: 5003
+	type: part
+
+sub04
+	id: 5004
+	type: part
+
+sub05
+	id: 5005
+	type: part
+
+skelet01
+	id: 5006
+	type: part
+
+# Layers
+
+SKeleton
+	id: 10
+	type: group
+	display_name_en_us: Skeleton
+	layer: yes
+	hidden: yes
+
+# Groups
+
+Skeleton
+	id: 1
+	type: group
+	hidden : yes

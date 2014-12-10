@@ -1,0 +1,47 @@
+# Parts
+
+# object sub01 to come ...
+	id: 5001
+	type: part
+	display_name_en_us: default
+
+sub01
+	id: 5002
+	type: part
+	display_name_en_us: coronary blood vessels 
+
+# object sub02 to come ...
+	id: 5003
+	type: part
+	display_name_en_us: default
+
+sub02
+	id: 5004
+	type: part
+	display_name_en_us: internal valves
+
+# object sub03 to come ...
+	id: 5005
+	type: part
+	display_name_en_us: default
+
+sub03
+	id: 5006
+	type: part
+	display_name_en_us: chambers of heart
+
+# Layers
+
+humanheartlayer
+	id: 10
+	type: group
+	display_name_en_us: humanheart
+	layer: yes
+	hidden: yes
+
+# Groups
+
+heartmodel
+	id: 1
+	type: group
+	hidden : yes
