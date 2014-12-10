@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" id="2f2a695a6afce2c2d833c706cd677a8e" src="Carousel%20Template%20%C2%B7%20Bootstrap_files/a.js"></script>
 <script src="js/config.js"></script>
-		<script src="js/skel.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
-    <meta charset="utf-8">
-    <title>Expendables</title>
+<script src="js/skel.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<noscript>
+	<link rel="stylesheet" href="css/skel-noscript.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style-desktop.css" />
+</noscript>
+    
+    <title>Expendables Organ Browser</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+	<meta charset="utf-8">
+    <meta name="description" content="Organ Browser developed by Expendables that includes 3d heart,skeleton and video ">
     <meta name="author" content="">
+	<meta name="keywords" content="organ browser,expendables, 3d heart, skeleton">
 
     <!-- Le styles -->
     <link href="Carousel%20Template%20%C2%B7%20Bootstrap_files/bootstrap.css" rel="stylesheet">
@@ -29,6 +32,7 @@
     body {
       padding-bottom: 40px;
       color: #5a5a5a;
+	  
     }
 
 
@@ -281,8 +285,17 @@
 
   <body>
 
-
-
+<span lang="en"></span><span lang="de"></span>
+<script>
+	function select_language(language) {
+		$("[lang]").each(function () {
+			if ($(this).attr("lang") == language)
+				$(this).show();
+			else
+				$(this).hide();
+		});
+	}
+</script>
     <!-- NAVBAR
     ================================================== -->
     <div class="navbar-wrapper">
@@ -370,7 +383,7 @@
                     <table><tr><td>
 						<div class="col-md-3">
 							<div class="team-member">
-								<img alt="kishan" src="images/prabhu.png" />
+								<img alt="Prabhu" src="images/prabhu.png" />
 								<div class="team-cont">
 									<h3>Prabhu Siddharth</h3>
 									<span>Team Member</span>
@@ -383,10 +396,10 @@
 							</div>
 						</div>
                         </td>
-                        <td>
+						<td>
 						<div class="col-md-3">
 							<div class="team-member">
-								<img alt="" src="images/karth.jpg" />
+								<img alt="Karthik" src="images/karth.jpg" />
 								<div class="team-cont">
 									<h3>Karthik</h3>
 									<span>Team Member</span>
@@ -398,11 +411,11 @@
 								</div>
 							</div>
 						</div>
-                        </td>
-                        <td>
+                         </td>
+						<td>
 						<div class="col-md-3">
 							<div class="team-member">
-								<img alt="" src="images/harsh.jpg" />
+								<img alt="Harish" src="images/harsh.jpg" />
 								<div class="team-cont">
 								<h3>Harish</h3>
 									<span>Team Member</span>
@@ -414,11 +427,11 @@
 								</div>
 							</div>
 						</div>
-                        </td>
-                        <td>
+                         </td>
+						<td>
 						<div class="col-md-3">
 							<div class="team-member">
-								<img alt="" src="images/ram.jpg" />
+								<img alt="Ram" src="images/ram.jpg" />
 								<div class="team-cont">
 									<h3>Ram Charan</h3>
 									<span>Team Member</span>
@@ -430,9 +443,10 @@
 								</div>
 							</div>
 						</div>
-                        </td>
-                        </tr>
-                        </table>
+                         </td>
+						<td>
+						</tr>
+						</table>
                         </center>
 					</div>
 				</article>
@@ -463,6 +477,6 @@
       }(window.jQuery)
     </script>
     <script src="Carousel%20Template%20%C2%B7%20Bootstrap_files/holder.js"></script>
-  
+  <footer style ="text-align:right">Product Created by Expendables For CmpE 297</footer>
 
 </body></html>
