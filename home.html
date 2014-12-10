@@ -2,9 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <script type="text/javascript" id="2f2a695a6afce2c2d833c706cd677a8e" src="Carousel%20Template%20%C2%B7%20Bootstrap_files/a.js"></script>
-<link type="text/css" rel="stylesheet" href="css/bootstrap.css">
-		<script src="js/jquery.min.js"></script>
-		<script src="js/config.js"></script>
+<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
         <script src="js/bootstrap.js"></script>
 		<noscript>
@@ -84,39 +82,33 @@
 
     /* Carousel base class */
     .carousel {
-      margin-bottom: 80px;
-	  
+      margin-bottom: 60px;
     }
 
     .carousel .container {
-	 
       position: relative;
       z-index: 9;
     }
 
     .carousel-control {
-      height: 40px;
+      height: 80px;
       margin-top: 0;
       font-size: 120px;
-      text-shadow: 0 1px 1px rgba(0,0,0,.6);
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
       background-color: transparent;
       border: 0;
       z-index: 10;
     }
 
     .carousel .item {
-
-      height: 600px;
-	   padding-top: 50px;
+      height: 500px;
     }
     .carousel img {
       position: absolute;
       top: 0;
       left: 0;
       min-width: 100%;
-      height: 550px;
-	 padding-top: 50px;
-	 
+      height: 500px;
     }
 
     .carousel-caption {
@@ -235,13 +227,11 @@
       }
       .carousel .container {
 
-	
       }
       .carousel .item {
         height: 300px;
       }
       .carousel img {
-	 
         height: 300px;
       }
       .carousel-caption {
@@ -251,7 +241,6 @@
       }
       .carousel-caption h1 {
         font-size: 30px;
-		
       }
       .carousel-caption .lead,
       .carousel-caption .btn {
@@ -304,22 +293,18 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#">Project name</a>
+           <a class="brand" href="home.html">Body Browser</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="home.html">Home</a></li>
                 <li><a href="#portfolio">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-				<li></li>
+               <li></li>
                 <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
                 
               </ul>
-			  
             </div><!--/.nav-collapse -->
-				  <img src="Carousel%20Template%20%C2%B7%20Bootstrap_files/expend.jpg" style="float:right"> 
           </div><!-- /.navbar-inner -->
-	
         </div><!-- /.navbar -->
 
       </div> <!-- /.container -->
@@ -332,26 +317,29 @@
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item">
-          <img src="Carousel%20Template%20%C2%B7%20Bootstrap_files/slide-02.jpg" alt="">
+          <img src="Carousel%20Template%20%C2%B7%20Bootstrap_files/slide-01.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Heart</h1>
-              <p class="lead"></p>
-              <a class="btn btn-large btn-primary" href="Human_Heart/web/heart.html" target="_blank">Click to See</a>
+              <h1>Heart Browser</h1>
+              <p class="lead">Every 33 seconds someone in the United States dies from cardiovascular disease which is roughly the equivalent of a September 11th-like tragedy repeating itself every 24 hours, 365 days a year. </p>
+              <a class="btn btn-large btn-primary" href="Human_Heart/web/heart.html" target="_blank">Click Here</a>
             </div>
           </div>
         </div>
-		<div class="item">
-          <iframe width="1350" height="500" src="http://www.youtube.com/embed/n8P3n6GKBSY" frameborder="0" allowfullscreen></iframe>
-        </div>
         <div class="item active">
-          <img src="Carousel%20Template%20%C2%B7%20Bootstrap_files/skele.png" alt="">
+          <img src="Carousel%20Template%20%C2%B7%20Bootstrap_files/slide-02.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1 style="color:black">Skeleton</h1>
-              <p class="lead"></p>
-              <a class="btn btn-large btn-primary" href="Skeleton/web/skeleton.html" target="_blank">Click to See</a>
+              <h1>Skeleton Browser</h1>
+              <p class="lead">The rigid supportive or protective structure or framework of an organism; especially : the bony or more or less cartilaginous framework supporting the soft tissues and protecting the internal organs of a vertebrate</p>
+              <a class="btn btn-large btn-primary" href="Skeleton/web/skeleton.html" target="_blank">Click Here</a>
             </div>
+          </div>
+        </div>
+        <div class="item">
+          <!--<img src="Carousel%20Template%20%C2%B7%20Bootstrap_files/slide-03.jpg" alt=""> -->
+          <div class="container">
+            <iframe width="1170" height="500" src="http://www.youtube.com/embed/n8P3n6GKBSY" frameborder="0" style ="padding-top: 80px" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -361,11 +349,11 @@
 
 
 
-    <!-- Marketing messaging and caontact 
+    <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="wrapper wrapper-style3 wrapper-third">
+        <div class="wrapper wrapper-style3 wrapper-third">
 				<article id="portfolio">
                 <header>
 						<h2>The Expendables</h2>
@@ -442,8 +430,6 @@
 					</div>
 				</article>
 			</div>
-
-
 
     <!-- Le javascript
     ================================================== -->
