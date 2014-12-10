@@ -28,7 +28,7 @@ sub02
 sub03
 	id: 5006
 	type: part
-	display_name_en_us: chambers of heart
+	display_name_en_us: Chambers of heart
 
 # Layers
 

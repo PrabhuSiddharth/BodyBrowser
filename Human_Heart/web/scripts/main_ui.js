@@ -32,7 +32,6 @@ o3v.MainUI = function(nextModelCallback) {
   // Logo.
   $('<img src="img/logo.png">').appendTo('body').css({
       'position': 'absolute',
-      'display' : 'none',
       'left': '8px',
       'top': '10px',
       'z-index': o3v.uiSettings.ZINDEX_MAINUI
@@ -44,7 +43,7 @@ o3v.MainUI = function(nextModelCallback) {
   this.modelBtn_ = $('<div>').appendTo('body').css({
       'position': 'absolute',
       'left': '17px',
-      'top': '17px',
+      'top': '219px',
       'width': '45px',
       'height': '50px',
       'border-left': '2px solid #92e497',

@@ -13,7 +13,7 @@ body {
 }
 
 .ui-autocomplete {
-	max-height: 200px;
+	max-height: 1px;
 	overflow-y: hidden;
 	/* prevent horizontal scrollbar */
 	overflow-x: hidden;

@@ -304,11 +304,11 @@ o3v.Viewer.prototype.setupInputHandlers_ = function(inputHandler) {
 };
 
 o3v.Viewer.prototype.toggleHelp_ = function() {
-  if ($('#help')[0].style['display'] != 'block') {
-    $('#help')[0].style['display'] = 'block';
+  if ($('#help')[0].style['display'] != 'none') {
+    $('#help')[0].style['display'] = 'none';
     $('#help-hidden')[0].style['display'] = 'none';
   } else {
     $('#help')[0].style['display'] = 'none';
-    $('#help-hidden')[0].style['display'] = 'block';
+    $('#help-hidden')[0].style['display'] = 'none';
   }
 };

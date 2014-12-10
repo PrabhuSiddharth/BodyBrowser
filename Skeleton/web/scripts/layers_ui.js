@@ -333,7 +333,7 @@ o3v.LayersUI.SliderToggle.prototype.build = function (lastIcon) {
       'border-bottom-right-radius': '16px',
       'border-bottom': '2px solid #92e497',
       'border-right': '2px solid #92e497',
-      'border-top': '1px solid #c2ffb7',
+      'border-top': '1px solid #92e497',
       'background-position': 'center center',
       'background-repeat': 'no-repeat',
       'background-color': '#fff',

@@ -29,14 +29,14 @@ o3v.navUI = function(reset, move, zoom) {
   this.zoom_ = zoom;
 
   var navBtnStyles = {
-    'position': 'absolute',
+    'position': 'left',
     'width': '20px',
     'height': '20px',
     'z-index': o3v.uiSettings.ZINDEX_MAINUI
   };
 
   this.navHome = $('<div>').appendTo('body').css(navBtnStyles).css({
-      'right': '30px',
+      'left': '30px',
       'top': '84px'
     }).button({
      icons: {
@@ -128,5 +128,5 @@ o3v.navUI = function(reset, move, zoom) {
         }.bind(this));
 };
 
-o3v.navUI.MOVE_FACTOR = 10;
-o3v.navUI.ZOOM_FACTOR = 50;
+o3v.navUI.MOVE_FACTOR = 1950;
+o3v.navUI.ZOOM_FACTOR = 500;

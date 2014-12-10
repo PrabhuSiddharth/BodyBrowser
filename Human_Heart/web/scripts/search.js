@@ -29,7 +29,7 @@ o3v.Search = function(selectCallback) {
       'border': '2px solid #92e497',
       'border-radius': '12px',
       'padding': '2px 8px 2px 8px',
-      'opacity': 0.8,
+      'opacity': 0.0,
       'z-index': o3v.uiSettings.ZINDEX_MAINUI
     });
 };
