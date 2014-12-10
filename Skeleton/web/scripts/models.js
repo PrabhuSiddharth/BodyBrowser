@@ -29,22 +29,5 @@ o3v.MODELS = [
    // texturePath: 'models/common/',
     numLayers: 1
   }
-  ,
-  {
-    name: 'Snail_anatomy_hi.obj',
-    scriptName: 'Snail_anatomy_hi.js',
-    modelPath: 'models/snail_anatomy/',
-    metadataFile: 'entity_metadata.json',
-    texturePath: 'models/common/',
-    numLayers: 4
-  }
-  ,
-  {
-    name: 'Bessie.obj',
-    scriptName: 'cow_anatomy.js',
-    modelPath: 'models/cow_anatomy/',
-    metadataFile: 'entity_metadata.json',
-    texturePath: 'models/common/',
-    numLayers: 5
-  }
+  
 ];
